@@ -25,7 +25,7 @@ Admins also have 'Dashboard' which includes an interface with necessary details.
    <h3> client </h3> 
 
    - login \ singup 
-   - add comments 
+   - add \ show  comments 
    - add items to the cart 
    - end shopping as a member or visitor 
 
