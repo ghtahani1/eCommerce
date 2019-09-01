@@ -1,0 +1,70 @@
+ <?php  
+            $allItems = getAllFrom('*' , 'items', '' ,'' , 'item_ID' ); 
+                foreach ($allItems as $item) { 
+                    echo '<div class="col-sm-6 col-md-4 images">';
+                    echo '<div class="card mb-3">';
+
+                    if(empty($item['Image'])) {
+                        echo '<img  class="img-fluid  card-img-top"
+                        src="uploads/avatars/52817_coffee-logo-.jpg" alt="pic">'; 
+                    }else {
+                        echo "<img style='height:288px' class='img-fluid  card-img-top' src='uploads/avatars/" . $item['Image'] . " ' alt='pic'>"; 
+                    }
+                    echo '<div class="card-body">' ;
+
+                        echo '<h3><a href="items.php?itemid=' .$item['item_ID'].'  ">' .$item['Name'] . '</a></h3>'; 
+                        echo '<p>' .$item['Description'] . '</p>'; 
+                        echo '<span class=""> SR ' .$item['Price'] . '</span>';
+                        echo '<button class="cart-btn"> اضف للسلة </button>';
+ 
+
+                    echo '</div>' ; 
+                    echo '</div>' ; 
+                echo '</div>' ; 
+
+            
+                }
+            ?> 
+
+                        <?php 
+
+if ($_SERVER['REQUEST_METHOD'] == "POST"){
+
+$ip = get_ip();
+$itemid = $_POST['itemid'] ;
+$qty = $_POST['qty'] ; 
+
+//foreach ($qty as $value ){
+//for ($i = 0 ; $i<3 ; $i++){
+$stmt = $con->prepare(" UPDATE cart SET Quantity = '$qty' ");
+$stmt->execute(array()); 
+//}
+if($stmt->rowCount() > 1 ){
+echo 'good' ; 
+} else 
+{echo $qty[1]; }
+
+
+}
+?>
+
+
+
+<div class="center">
+    <div class="input-group">
+          <span class="input-group-btn">
+              <button onclick="myFunction2();" type="button" id="num-m" class="btn btn-default btn-number ml-1" >
+                  <i class="fa fa-minus"></i>
+              </button>
+          </span>
+          <input type="number" id="num" name="num" value="1" class="form-group input-number" min="1" max="5" style="
+    width: 26%";>
+          <span class="input-group-btn">
+
+              <button onclick="myFunction1();" type="button" id="num-p" class="btn btn-default btn-number mr-1"  >
+                  <i class="fa fa-plus"></i>
+              </button>
+          </span>
+      </div>
+</div>
+<span id="in"></span>
