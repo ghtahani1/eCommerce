@@ -36,4 +36,29 @@ Admins also have 'Dashboard' which includes an interface with necessary details.
 
 ![logo](/img/Screen%20Shot%201441-01-02%20at%209.43.52%20AM.png)
 
+  - manage items 
+  
+![logo](/img/Screen Shot 1441-01-02 at 9.43.04 AM.png)
+
+
+ - login \ singup 
+ 
+![logo](/img/Screen Shot 1441-01-02 at 9.47.36 AM.png)
+
+
+ - cart 
+ 
+ ![logo](/img/Screen Shot 1441-01-02 at 9.48.24 AM.png)
+
+
+ - endshopping 
+ 
+  ![logo](/img/Screen Shot 1441-01-02 at 9.48.44 AM.png)
+  
+  
+
+ 
+ 
+ 
+
 
