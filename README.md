@@ -38,22 +38,22 @@ Admins also have 'Dashboard' which includes an interface with necessary details.
 
   - manage items 
   
-![logo](/img/Screen Shot 1441-01-02 at 9.43.04 AM.png)
+![logo](/img/Screen%20Shot%201441-01-02%20at%209.43.04%20AM.png)
 
 
  - login \ singup 
  
-![logo](/img/Screen Shot 1441-01-02 at 9.47.36 AM.png)
+![logo](/img/Screen%20Shot%201441-01-02%20at%209.47.36%20AM.png)
 
 
  - cart 
  
- ![logo](/img/Screen Shot 1441-01-02 at 9.48.24 AM.png)
+ ![logo](/img/Screen%20Shot%201441-01-02%20at%209.48.24%20AM.png)
 
 
  - endshopping 
  
-  ![logo](/img/Screen Shot 1441-01-02 at 9.48.44 AM.png)
+  ![logo](/img/Screen%20Shot%201441-01-02%20at%209.48.44%20AM.png)
   
   
 
