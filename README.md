@@ -10,29 +10,29 @@ Admins also have 'Dashboard' which includes an interface with necessary details.
     
    <h2> Requirements </h2> 
    
-     -  MAMP 
+  - MAMP 
      
    <h2> feachers </h2> 
      
-     <h3> admin </h3> 
-     
-     - dashboard with all statistics
-     - add , edite , approve and delete member 
-     - add , edite and delete categories 
-     - add , edite and delete items 
-     - approve the comments to show 
-     
-     <h3> client <h3> 
-     
-     - login \ singup 
-     - add comments 
-     - add items to the cart 
-     - end shopping as a member or visitor 
+   <h3> admin </h3> 
+
+   - dashboard with all statistics
+   - add , edite , approve and delete member 
+   - add , edite and delete categories 
+   - add , edite and delete items 
+   - approve the comments to show 
+
+   <h3> client <h3> 
+
+   - login \ singup 
+   - add comments 
+   - add items to the cart 
+   - end shopping as a member or visitor 
 
 
 <h2> screenshots </h2> 
 
-    -dashboard 
-     
-     ![screen] (/img/Screen%20Shot%201441-01-02%20at%209.43.52%20AM.png)
-     
+  -dashboard 
+
+   ![screen] (/img/Screen%20Shot%201441-01-02%20at%209.43.52%20AM.png)
+
