@@ -22,7 +22,7 @@ Admins also have 'Dashboard' which includes an interface with necessary details.
    - add , edite and delete items 
    - approve the comments to show 
 
-   <h3> client <h3> 
+   <h3> client </h3> 
 
    - login \ singup 
    - add comments 
@@ -34,5 +34,6 @@ Admins also have 'Dashboard' which includes an interface with necessary details.
 
   -dashboard 
 
-   ![screen] (/img/Screen%20Shot%201441-01-02%20at%209.43.52%20AM.png)
+![logo](/img/Screen%20Shot%201441-01-02%20at%209.43.52%20AM.png)
+
 
